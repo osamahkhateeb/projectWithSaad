@@ -1,0 +1,110 @@
+html,body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fira Sans', sans-serif;
+    background: linear-gradient(90deg,#ff5890 0%,  #ffca88 , #fffaf3 );
+    overflow: hidden;    
+}
+
+.center { 
+    width: 540px;
+    background: #fff;
+    border-radius: 10px;
+    padding-bottom: 45px;
+
+}
+
+.center h1 {
+    text-align: center;
+}
+.center p {
+    text-align: center;
+    font-weight: bold;
+}
+
+form input {
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+    background: #f8f8f8;
+    margin-left: 35px;
+    border: 2px solid #f8f8f8;
+    padding: 10px;
+    border-radius: 25px;
+    caret-color: #4795ff;
+    margin-bottom: 30px;
+    outline: none;
+}
+form input:focus {
+    background-color: #fff;
+    border: 2px solid #f8f8f8;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+
+form input.username{
+    width: 445px;
+}
+
+form input.email {
+    width: 445px;
+}
+
+.name {
+    position: relative;
+}
+
+.fsname {
+    float: left;
+}
+.lsname {
+    position: absolute;
+    float: right;
+    width: 40%;
+    right: 38px;
+
+}
+
+.submit {
+    background-color: #4795ff;
+    color: #fff;
+    width: 445px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.inputWithIcon {
+    position: relative;
+}
+
+
+.inputWithIcon i {
+    position: absolute;
+    color: #fff;
+    top: 14px;
+    left:440px;
+    font-size: 20px;
+}
+
+.terms-conditions {
+  position: absolute;
+  bottom: 150px;
+  right: 650px;
+
+}
+
+.terms {
+    padding-bottom: 100px;
+}
+span {
+    color: #4795ff;
+}
+
+
